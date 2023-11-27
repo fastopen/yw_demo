@@ -96,32 +96,29 @@ services:
     networks:
       apisix:
   mysql:
-    build:
-      context: mysql
-    environment:
-      - TZ=${TZ}
-      - MYSQL_USER=${MYSQL_USERNAME}                  # 设置 Mysql 用户名称
-      - MYSQL_PASSWORD=${MYSQL_PASSWORD}              # 设置 Mysql 用户密码
-      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}    # 设置 Mysql root 用户密码
-    volumes:
-      - ${DATA_PATH_HOST}/mysql:/var/lib/mysql        # 引用 .env 配置中 DATA_PATH_HOST 变量，将宿主机上存放 Mysql 数据的目录挂载到容器中 /var/lib/mysql 目录
-      - ${CODE_PATH_HOST}:/code
-    ports:
-      - "${MYSQL_PORT}:3306"                          # 设置容器3306端口映射指定宿主机端口
+    image: mysql:5.7.37
+    platform: linux/amd64
     networks:
       apisix:
+    environment:
+      MYSQL_ROOT_PASSWORD: gh123456
+      MYSQL_ROOT_HOST: '%'
+    command: [
+      '--character-set-server=utf8mb4',
+      '--collation-server=utf8mb4_general_ci',
+      '--port=3306',
+    ]
+    ports:
+      - 3306:3306
+    volumes:
+      - ./scripts/migration:/data/all-in-one/migration
     restart: always
   redis:
-    build:
-      context: redis
-    environment:
-      - TZ=${TZ}
-    volumes:
-      - ${DATA_PATH_HOST}/redis:/data                 # 引用 .env 配置中 DATA_PATH_HOST 变量，将宿主机上存放 Redis 数据的目录挂载到容器中 /data 目录
-    ports:
-      - "${REDIS_PORT}:6379"                          # 设置容器6379端口映射指定宿主机端口
+    image: redis:5.0.14-alpine
     networks:
-      - apisix
+      apisix:
+    ports:
+      - 6379:6379
     restart: always
   zookeeper:
     image: wurstmeister/zookeeper
