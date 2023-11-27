@@ -3,3 +3,5 @@
 
 /etcd_data/*
 !/etcd_data/.keep
+
+./data/*

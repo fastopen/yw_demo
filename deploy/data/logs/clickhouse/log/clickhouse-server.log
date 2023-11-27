@@ -17642,3 +17642,297 @@ Revision: 54448
 2023.11.27 13:57:20.595204 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
 2023.11.27 13:57:20.616309 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_9_9_0 to 202311_439_439_0.
 2023.11.27 13:57:20.618592 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:57:28.119731 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 13:57:28.137025 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:57:28.145921 [ 54 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 13:57:28.147005 [ 54 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 13:57:28.168457 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_10_10_0 to 202311_440_440_0.
+2023.11.27 13:57:28.172230 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:57:30.000773 [ 78 ] {} <Debug> AsynchronousMetrics: MemoryTracking: was 281.98 MiB, peak 302.13 MiB, will set to 266.91 MiB (RSS), difference: -15.07 MiB
+2023.11.27 13:57:35.674161 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 13:57:35.681527 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:57:35.706173 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_11_11_0 to 202311_441_441_0.
+2023.11.27 13:57:35.711812 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:57:35.711845 [ 66 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Selected 6 parts from 202311_1_436_87 to 202311_441_441_0
+2023.11.27 13:57:35.712798 [ 66 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:57:35.713192 [ 86 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merging 6 parts: from 202311_1_436_87 to 202311_441_441_0 into Compact
+2023.11.27 13:57:35.714047 [ 86 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Selected MergeAlgorithm: Horizontal
+2023.11.27 13:57:35.714698 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_1_436_87, total 3275 rows starting from the beginning of the part
+2023.11.27 13:57:35.717897 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_437_437_0, total 7 rows starting from the beginning of the part
+2023.11.27 13:57:35.720841 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_438_438_0, total 8 rows starting from the beginning of the part
+2023.11.27 13:57:35.723962 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_439_439_0, total 7 rows starting from the beginning of the part
+2023.11.27 13:57:35.726878 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_440_440_0, total 8 rows starting from the beginning of the part
+2023.11.27 13:57:35.730221 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_441_441_0, total 7 rows starting from the beginning of the part
+2023.11.27 13:57:35.756243 [ 86 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merge sorted 3312 rows, containing 268 columns (268 merged, 0 gathered) in 0.043073583 sec., 76891.67627406339 rows/sec., 156.49 MiB/sec.
+2023.11.27 13:57:35.766773 [ 86 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_merge_202311_1_441_88 to 202311_1_441_88.
+2023.11.27 13:57:35.768404 [ 86 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merged 6 parts: from 202311_1_436_87 to 202311_441_441_0
+2023.11.27 13:57:35.768809 [ 86 ] {} <Debug> MemoryTracker: Peak memory usage: 20.43 MiB.
+2023.11.27 13:57:43.148017 [ 64 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 13:57:43.150902 [ 64 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 13:57:43.212428 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 13:57:43.219092 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:57:43.238992 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_12_12_0 to 202311_442_442_0.
+2023.11.27 13:57:43.241631 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:57:50.742666 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 13:57:50.763160 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:57:50.793705 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_13_13_0 to 202311_443_443_0.
+2023.11.27 13:57:50.796658 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:57:58.153858 [ 67 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 13:57:58.160316 [ 67 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 13:57:58.297246 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 13:57:58.303523 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:57:58.325622 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_14_14_0 to 202311_444_444_0.
+2023.11.27 13:57:58.328310 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:58:05.828938 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 13:58:05.844123 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:58:05.874947 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_15_15_0 to 202311_445_445_0.
+2023.11.27 13:58:05.880597 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:58:12.780058 [ 74 ] {} <Trace> SystemLog (system.asynchronous_metric_log): Flushing system log, 45 entries to flush
+2023.11.27 13:58:12.786595 [ 74 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:58:12.825760 [ 74 ] {} <Trace> system.asynchronous_metric_log (a3504688-7806-4547-99d2-160e7e05558e): Renaming temporary part tmp_insert_202311_2_2_0 to 202311_55_55_0.
+2023.11.27 13:58:12.828854 [ 74 ] {} <Trace> SystemLog (system.asynchronous_metric_log): Flushed system log
+2023.11.27 13:58:13.162236 [ 53 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 13:58:13.164419 [ 53 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 13:58:13.381724 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 13:58:13.393904 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:58:13.429318 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_16_16_0 to 202311_446_446_0.
+2023.11.27 13:58:13.432266 [ 68 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Selected 6 parts from 202311_1_441_88 to 202311_446_446_0
+2023.11.27 13:58:13.432400 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:58:13.433041 [ 68 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:58:13.433429 [ 86 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merging 6 parts: from 202311_1_441_88 to 202311_446_446_0 into Compact
+2023.11.27 13:58:13.435285 [ 86 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Selected MergeAlgorithm: Horizontal
+2023.11.27 13:58:13.436190 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_1_441_88, total 3312 rows starting from the beginning of the part
+2023.11.27 13:58:13.439824 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_442_442_0, total 8 rows starting from the beginning of the part
+2023.11.27 13:58:13.442959 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_443_443_0, total 8 rows starting from the beginning of the part
+2023.11.27 13:58:13.446100 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_444_444_0, total 7 rows starting from the beginning of the part
+2023.11.27 13:58:13.449063 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_445_445_0, total 8 rows starting from the beginning of the part
+2023.11.27 13:58:13.451701 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_446_446_0, total 7 rows starting from the beginning of the part
+2023.11.27 13:58:13.475368 [ 86 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merge sorted 3350 rows, containing 268 columns (268 merged, 0 gathered) in 0.041942375 sec., 79871.49034836488 rows/sec., 162.55 MiB/sec.
+2023.11.27 13:58:13.485680 [ 86 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_merge_202311_1_446_89 to 202311_1_446_89.
+2023.11.27 13:58:13.487329 [ 86 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merged 6 parts: from 202311_1_441_88 to 202311_446_446_0
+2023.11.27 13:58:13.487520 [ 86 ] {} <Debug> MemoryTracker: Peak memory usage: 20.41 MiB.
+2023.11.27 13:58:20.933125 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 13:58:20.939670 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:58:20.960852 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_17_17_0 to 202311_447_447_0.
+2023.11.27 13:58:20.963372 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:58:28.166506 [ 61 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 13:58:28.167371 [ 61 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 13:58:28.464248 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 13:58:28.469857 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:58:28.493739 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_18_18_0 to 202311_448_448_0.
+2023.11.27 13:58:28.496580 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:58:30.001162 [ 78 ] {} <Debug> AsynchronousMetrics: MemoryTracking: was 267.41 MiB, peak 302.13 MiB, will set to 289.18 MiB (RSS), difference: 21.77 MiB
+2023.11.27 13:58:35.997110 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 13:58:36.003579 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:58:36.028071 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_19_19_0 to 202311_449_449_0.
+2023.11.27 13:58:36.031123 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:58:43.167800 [ 64 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 13:58:43.168843 [ 64 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 13:58:43.532407 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 13:58:43.540373 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:58:43.566033 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_20_20_0 to 202311_450_450_0.
+2023.11.27 13:58:43.569130 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:58:51.069773 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 13:58:51.075670 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:58:51.094320 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_21_21_0 to 202311_451_451_0.
+2023.11.27 13:58:51.096756 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:58:51.096815 [ 67 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Selected 6 parts from 202311_1_446_89 to 202311_451_451_0
+2023.11.27 13:58:51.097566 [ 67 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:58:51.097862 [ 85 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merging 6 parts: from 202311_1_446_89 to 202311_451_451_0 into Compact
+2023.11.27 13:58:51.098605 [ 85 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Selected MergeAlgorithm: Horizontal
+2023.11.27 13:58:51.099236 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_1_446_89, total 3350 rows starting from the beginning of the part
+2023.11.27 13:58:51.102093 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_447_447_0, total 8 rows starting from the beginning of the part
+2023.11.27 13:58:51.104758 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_448_448_0, total 7 rows starting from the beginning of the part
+2023.11.27 13:58:51.107478 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_449_449_0, total 8 rows starting from the beginning of the part
+2023.11.27 13:58:51.109993 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_450_450_0, total 7 rows starting from the beginning of the part
+2023.11.27 13:58:51.112447 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_451_451_0, total 8 rows starting from the beginning of the part
+2023.11.27 13:58:51.137021 [ 85 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merge sorted 3388 rows, containing 268 columns (268 merged, 0 gathered) in 0.039160208 sec., 86516.39439708798 rows/sec., 176.07 MiB/sec.
+2023.11.27 13:58:51.147396 [ 85 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_merge_202311_1_451_90 to 202311_1_451_90.
+2023.11.27 13:58:51.149067 [ 85 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merged 6 parts: from 202311_1_446_89 to 202311_451_451_0
+2023.11.27 13:58:51.149262 [ 85 ] {} <Debug> MemoryTracker: Peak memory usage: 20.43 MiB.
+2023.11.27 13:58:57.895398 [ 70 ] {} <Trace> SystemLog (system.trace_log): Flushing system log, 2 entries to flush
+2023.11.27 13:58:57.899668 [ 70 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:58:57.929058 [ 70 ] {} <Trace> system.trace_log (3f677ba8-44c4-4be6-9e77-542ce1f48a75): Renaming temporary part tmp_insert_202311_4_4_0 to 202311_24_24_0.
+2023.11.27 13:58:57.932264 [ 70 ] {} <Trace> SystemLog (system.trace_log): Flushed system log
+2023.11.27 13:58:58.170558 [ 67 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 13:58:58.172637 [ 67 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 13:58:58.597366 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 13:58:58.608741 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:58:58.642761 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_22_22_0 to 202311_452_452_0.
+2023.11.27 13:58:58.646382 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:59:06.147003 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 13:59:06.154451 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:59:06.173845 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_23_23_0 to 202311_453_453_0.
+2023.11.27 13:59:06.176093 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:59:09.638673 [ 58 ] {} <Debug> system.trace_log (3f677ba8-44c4-4be6-9e77-542ce1f48a75) (MergerMutator): Selected 5 parts from 202311_1_20_5 to 202311_24_24_0
+2023.11.27 13:59:09.640636 [ 58 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:59:09.641397 [ 85 ] {} <Debug> system.trace_log (3f677ba8-44c4-4be6-9e77-542ce1f48a75) (MergerMutator): Merging 5 parts: from 202311_1_20_5 to 202311_24_24_0 into Compact
+2023.11.27 13:59:09.643325 [ 85 ] {} <Debug> system.trace_log (3f677ba8-44c4-4be6-9e77-542ce1f48a75) (MergerMutator): Selected MergeAlgorithm: Horizontal
+2023.11.27 13:59:09.643977 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_1_20_5, total 34 rows starting from the beginning of the part
+2023.11.27 13:59:09.646064 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_21_21_0, total 2 rows starting from the beginning of the part
+2023.11.27 13:59:09.649682 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_22_22_0, total 6 rows starting from the beginning of the part
+2023.11.27 13:59:09.652947 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_23_23_0, total 3 rows starting from the beginning of the part
+2023.11.27 13:59:09.656731 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_24_24_0, total 2 rows starting from the beginning of the part
+2023.11.27 13:59:09.672563 [ 85 ] {} <Debug> system.trace_log (3f677ba8-44c4-4be6-9e77-542ce1f48a75) (MergerMutator): Merge sorted 47 rows, containing 10 columns (10 merged, 0 gathered) in 0.031185209 sec., 1507.124739808542 rows/sec., 292.73 KiB/sec.
+2023.11.27 13:59:09.684647 [ 85 ] {} <Trace> system.trace_log (3f677ba8-44c4-4be6-9e77-542ce1f48a75): Renaming temporary part tmp_merge_202311_1_24_6 to 202311_1_24_6.
+2023.11.27 13:59:09.686711 [ 85 ] {} <Trace> system.trace_log (3f677ba8-44c4-4be6-9e77-542ce1f48a75) (MergerMutator): Merged 5 parts: from 202311_1_20_5 to 202311_24_24_0
+2023.11.27 13:59:09.686997 [ 85 ] {} <Debug> MemoryTracker: Peak memory usage: 4.04 MiB.
+2023.11.27 13:59:12.829723 [ 74 ] {} <Trace> SystemLog (system.asynchronous_metric_log): Flushing system log, 45 entries to flush
+2023.11.27 13:59:12.831173 [ 74 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:59:12.851701 [ 74 ] {} <Trace> system.asynchronous_metric_log (a3504688-7806-4547-99d2-160e7e05558e): Renaming temporary part tmp_insert_202311_3_3_0 to 202311_56_56_0.
+2023.11.27 13:59:12.855894 [ 74 ] {} <Trace> SystemLog (system.asynchronous_metric_log): Flushed system log
+2023.11.27 13:59:13.173469 [ 64 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 13:59:13.174414 [ 64 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 13:59:13.676697 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 13:59:13.691503 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:59:13.717043 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_24_24_0 to 202311_454_454_0.
+2023.11.27 13:59:13.720672 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:59:21.227157 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 13:59:21.233091 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:59:21.252682 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_25_25_0 to 202311_455_455_0.
+2023.11.27 13:59:21.255015 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:59:28.175122 [ 57 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 13:59:28.176792 [ 57 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 13:59:28.755748 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 13:59:28.765607 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:59:28.790671 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_26_26_0 to 202311_456_456_0.
+2023.11.27 13:59:28.793260 [ 54 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Selected 6 parts from 202311_1_451_90 to 202311_456_456_0
+2023.11.27 13:59:28.793320 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:59:28.794055 [ 54 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:59:28.794543 [ 85 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merging 6 parts: from 202311_1_451_90 to 202311_456_456_0 into Compact
+2023.11.27 13:59:28.795929 [ 85 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Selected MergeAlgorithm: Horizontal
+2023.11.27 13:59:28.797368 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_1_451_90, total 3388 rows starting from the beginning of the part
+2023.11.27 13:59:28.800727 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_452_452_0, total 7 rows starting from the beginning of the part
+2023.11.27 13:59:28.804037 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_453_453_0, total 8 rows starting from the beginning of the part
+2023.11.27 13:59:28.807034 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_454_454_0, total 7 rows starting from the beginning of the part
+2023.11.27 13:59:28.810274 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_455_455_0, total 8 rows starting from the beginning of the part
+2023.11.27 13:59:28.813434 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_456_456_0, total 8 rows starting from the beginning of the part
+2023.11.27 13:59:28.837432 [ 85 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merge sorted 3426 rows, containing 268 columns (268 merged, 0 gathered) in 0.042888167 sec., 79882.17356083322 rows/sec., 162.57 MiB/sec.
+2023.11.27 13:59:28.849106 [ 85 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_merge_202311_1_456_91 to 202311_1_456_91.
+2023.11.27 13:59:28.850662 [ 85 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merged 6 parts: from 202311_1_451_90 to 202311_456_456_0
+2023.11.27 13:59:28.850862 [ 85 ] {} <Debug> MemoryTracker: Peak memory usage: 20.43 MiB.
+2023.11.27 13:59:29.096052 [ 62 ] {} <Debug> system.asynchronous_metric_log (a3504688-7806-4547-99d2-160e7e05558e) (MergerMutator): Selected 5 parts from 202311_1_52_13 to 202311_56_56_0
+2023.11.27 13:59:29.096936 [ 62 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:59:29.097574 [ 85 ] {} <Debug> system.asynchronous_metric_log (a3504688-7806-4547-99d2-160e7e05558e) (MergerMutator): Merging 5 parts: from 202311_1_52_13 to 202311_56_56_0 into Compact
+2023.11.27 13:59:29.098855 [ 85 ] {} <Debug> system.asynchronous_metric_log (a3504688-7806-4547-99d2-160e7e05558e) (MergerMutator): Selected MergeAlgorithm: Horizontal
+2023.11.27 13:59:29.099288 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_1_52_13, total 2565 rows starting from the beginning of the part
+2023.11.27 13:59:29.100625 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_53_53_0, total 45 rows starting from the beginning of the part
+2023.11.27 13:59:29.101715 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_54_54_0, total 90 rows starting from the beginning of the part
+2023.11.27 13:59:29.104482 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_55_55_0, total 45 rows starting from the beginning of the part
+2023.11.27 13:59:29.106554 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_56_56_0, total 45 rows starting from the beginning of the part
+2023.11.27 13:59:29.116311 [ 85 ] {} <Debug> system.asynchronous_metric_log (a3504688-7806-4547-99d2-160e7e05558e) (MergerMutator): Merge sorted 2790 rows, containing 5 columns (5 merged, 0 gathered) in 0.018739583 sec., 148882.71526639626 rows/sec., 7.35 MiB/sec.
+2023.11.27 13:59:29.124512 [ 85 ] {} <Trace> system.asynchronous_metric_log (a3504688-7806-4547-99d2-160e7e05558e): Renaming temporary part tmp_merge_202311_1_56_14 to 202311_1_56_14.
+2023.11.27 13:59:29.126556 [ 85 ] {} <Trace> system.asynchronous_metric_log (a3504688-7806-4547-99d2-160e7e05558e) (MergerMutator): Merged 5 parts: from 202311_1_52_13 to 202311_56_56_0
+2023.11.27 13:59:29.126838 [ 85 ] {} <Debug> MemoryTracker: Peak memory usage: 4.09 MiB.
+2023.11.27 13:59:30.000294 [ 78 ] {} <Debug> AsynchronousMetrics: MemoryTracking: was 289.71 MiB, peak 310.06 MiB, will set to 291.84 MiB (RSS), difference: 2.13 MiB
+2023.11.27 13:59:36.294356 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 13:59:36.301324 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.62 TiB.
+2023.11.27 13:59:36.324693 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_27_27_0 to 202311_457_457_0.
+2023.11.27 13:59:36.327623 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:59:43.178846 [ 53 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 13:59:43.179917 [ 53 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 13:59:43.828193 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 13:59:43.840095 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 13:59:43.865722 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_28_28_0 to 202311_458_458_0.
+2023.11.27 13:59:43.869247 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:59:51.372888 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 13:59:51.379875 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 13:59:51.402245 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_29_29_0 to 202311_459_459_0.
+2023.11.27 13:59:51.405158 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 13:59:58.181642 [ 64 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 13:59:58.182597 [ 64 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 13:59:58.907181 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 13:59:58.912063 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 13:59:58.931235 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_30_30_0 to 202311_460_460_0.
+2023.11.27 13:59:58.933664 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 14:00:06.434817 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 14:00:06.446834 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:00:06.476678 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_31_31_0 to 202311_461_461_0.
+2023.11.27 14:00:06.480417 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 14:00:06.480483 [ 63 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Selected 6 parts from 202311_1_456_91 to 202311_461_461_0
+2023.11.27 14:00:06.481549 [ 63 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:00:06.482049 [ 85 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merging 6 parts: from 202311_1_456_91 to 202311_461_461_0 into Compact
+2023.11.27 14:00:06.483126 [ 85 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Selected MergeAlgorithm: Horizontal
+2023.11.27 14:00:06.484410 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_1_456_91, total 3426 rows starting from the beginning of the part
+2023.11.27 14:00:06.488501 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_457_457_0, total 7 rows starting from the beginning of the part
+2023.11.27 14:00:06.492419 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_458_458_0, total 8 rows starting from the beginning of the part
+2023.11.27 14:00:06.498379 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_459_459_0, total 7 rows starting from the beginning of the part
+2023.11.27 14:00:06.501757 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_460_460_0, total 8 rows starting from the beginning of the part
+2023.11.27 14:00:06.504874 [ 85 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_461_461_0, total 7 rows starting from the beginning of the part
+2023.11.27 14:00:06.530207 [ 85 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merge sorted 3463 rows, containing 268 columns (268 merged, 0 gathered) in 0.048165333 sec., 71898.18453035507 rows/sec., 146.32 MiB/sec.
+2023.11.27 14:00:06.540598 [ 85 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_merge_202311_1_461_92 to 202311_1_461_92.
+2023.11.27 14:00:06.542201 [ 85 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merged 6 parts: from 202311_1_456_91 to 202311_461_461_0
+2023.11.27 14:00:06.542401 [ 85 ] {} <Debug> MemoryTracker: Peak memory usage: 20.42 MiB.
+2023.11.27 14:00:12.864582 [ 74 ] {} <Trace> SystemLog (system.asynchronous_metric_log): Flushing system log, 45 entries to flush
+2023.11.27 14:00:12.870829 [ 74 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:00:12.907073 [ 74 ] {} <Trace> system.asynchronous_metric_log (a3504688-7806-4547-99d2-160e7e05558e): Renaming temporary part tmp_insert_202311_4_4_0 to 202311_57_57_0.
+2023.11.27 14:00:12.911338 [ 74 ] {} <Trace> SystemLog (system.asynchronous_metric_log): Flushed system log
+2023.11.27 14:00:12.946526 [ 70 ] {} <Trace> SystemLog (system.trace_log): Flushing system log, 1 entries to flush
+2023.11.27 14:00:12.948222 [ 70 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:00:12.966248 [ 70 ] {} <Trace> system.trace_log (3f677ba8-44c4-4be6-9e77-542ce1f48a75): Renaming temporary part tmp_insert_202311_5_5_0 to 202311_25_25_0.
+2023.11.27 14:00:12.973413 [ 70 ] {} <Trace> SystemLog (system.trace_log): Flushed system log
+2023.11.27 14:00:13.183289 [ 63 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 14:00:13.185877 [ 63 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 14:00:13.981569 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 14:00:14.000090 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:00:14.034372 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_32_32_0 to 202311_462_462_0.
+2023.11.27 14:00:14.037696 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 14:00:21.539483 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 14:00:21.559214 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:00:21.580043 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_33_33_0 to 202311_463_463_0.
+2023.11.27 14:00:21.581961 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 14:00:28.187210 [ 66 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 14:00:28.190146 [ 66 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 14:00:29.082667 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 14:00:29.093746 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:00:29.130435 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_34_34_0 to 202311_464_464_0.
+2023.11.27 14:00:29.134361 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 14:00:30.000933 [ 78 ] {} <Debug> AsynchronousMetrics: MemoryTracking: was 292.28 MiB, peak 312.48 MiB, will set to 290.81 MiB (RSS), difference: -1.47 MiB
+2023.11.27 14:00:36.636338 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 14:00:36.649240 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:00:36.683461 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_35_35_0 to 202311_465_465_0.
+2023.11.27 14:00:36.688576 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 14:00:43.193900 [ 57 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 14:00:43.198186 [ 57 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 14:00:44.189214 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 14:00:44.200302 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:00:44.227398 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_36_36_0 to 202311_466_466_0.
+2023.11.27 14:00:44.230779 [ 59 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Selected 6 parts from 202311_1_461_92 to 202311_466_466_0
+2023.11.27 14:00:44.230816 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 14:00:44.231434 [ 59 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:00:44.231799 [ 86 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merging 6 parts: from 202311_1_461_92 to 202311_466_466_0 into Compact
+2023.11.27 14:00:44.232753 [ 86 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Selected MergeAlgorithm: Horizontal
+2023.11.27 14:00:44.233573 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_1_461_92, total 3463 rows starting from the beginning of the part
+2023.11.27 14:00:44.236689 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_462_462_0, total 8 rows starting from the beginning of the part
+2023.11.27 14:00:44.239895 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_463_463_0, total 7 rows starting from the beginning of the part
+2023.11.27 14:00:44.242962 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_464_464_0, total 8 rows starting from the beginning of the part
+2023.11.27 14:00:44.246044 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_465_465_0, total 7 rows starting from the beginning of the part
+2023.11.27 14:00:44.248665 [ 86 ] {} <Trace> MergeTreeSequentialSource: Reading 2 marks from part 202311_466_466_0, total 8 rows starting from the beginning of the part
+2023.11.27 14:00:44.273325 [ 86 ] {} <Debug> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merge sorted 3501 rows, containing 268 columns (268 merged, 0 gathered) in 0.041524083 sec., 84312.51811147762 rows/sec., 171.59 MiB/sec.
+2023.11.27 14:00:44.283927 [ 86 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_merge_202311_1_466_93 to 202311_1_466_93.
+2023.11.27 14:00:44.285580 [ 86 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef) (MergerMutator): Merged 6 parts: from 202311_1_461_92 to 202311_466_466_0
+2023.11.27 14:00:44.286228 [ 86 ] {} <Debug> MemoryTracker: Peak memory usage: 20.41 MiB.
+2023.11.27 14:00:51.732782 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 14:00:51.750378 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:00:51.783753 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_37_37_0 to 202311_467_467_0.
+2023.11.27 14:00:51.787084 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 14:00:58.201817 [ 68 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 14:00:58.206024 [ 68 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 14:00:59.289124 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 14:00:59.293809 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:00:59.310395 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_38_38_0 to 202311_468_468_0.
+2023.11.27 14:00:59.314144 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 14:01:06.815861 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 8 entries to flush
+2023.11.27 14:01:06.839073 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:01:06.871894 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_39_39_0 to 202311_469_469_0.
+2023.11.27 14:01:06.874845 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
+2023.11.27 14:01:12.912296 [ 74 ] {} <Trace> SystemLog (system.asynchronous_metric_log): Flushing system log, 45 entries to flush
+2023.11.27 14:01:12.915234 [ 74 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:01:12.943752 [ 74 ] {} <Trace> system.asynchronous_metric_log (a3504688-7806-4547-99d2-160e7e05558e): Renaming temporary part tmp_insert_202311_5_5_0 to 202311_58_58_0.
+2023.11.27 14:01:12.947169 [ 74 ] {} <Trace> SystemLog (system.asynchronous_metric_log): Flushed system log
+2023.11.27 14:01:13.208493 [ 58 ] {} <Debug> DNSResolver: Updating DNS cache
+2023.11.27 14:01:13.209641 [ 58 ] {} <Debug> DNSResolver: Updated DNS cache
+2023.11.27 14:01:14.375267 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushing system log, 7 entries to flush
+2023.11.27 14:01:14.381101 [ 51 ] {} <Debug> DiskLocal: Reserving 1.00 MiB on disk `default`, having unreserved 166.61 TiB.
+2023.11.27 14:01:14.397343 [ 51 ] {} <Trace> system.metric_log (0d02d278-e156-4643-9d0b-75f891dec5ef): Renaming temporary part tmp_insert_202311_40_40_0 to 202311_470_470_0.
+2023.11.27 14:01:14.399195 [ 51 ] {} <Trace> SystemLog (system.metric_log): Flushed system log
