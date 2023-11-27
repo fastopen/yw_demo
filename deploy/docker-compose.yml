@@ -131,7 +131,7 @@ services:
   kafka:
     image: wurstmeister/kafka:latest
     ports:
-      - "9092:9092"
+      - "9099:9092"
     environment:
       KAFKA_ADVERTISED_HOST_NAME: 192.168.3.22
       KAFKA_CREATE_TOPICS: ""
